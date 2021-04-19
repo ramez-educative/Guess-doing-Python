@@ -1,7 +1,7 @@
 number = None
 while number == None:
+    n = input("Enter an integer: ")
     try:
-        n = input("Enter an integer: ")
         number = int(n)
     except Exception:
         print("Try again!")
